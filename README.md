@@ -11,39 +11,39 @@ Right now info about plants is saved only on device.
 
 List of plants on home activity:
 
-!(Home page)[docs/homepage.png]
+![Home page](docs/homepage.png)
 
 
 User can add new plant:
 
-!(create vine)[docs/create-vine.png]
+![create vine](docs/create-vine.png)
 
 
 User can view info about plant:
 
-!(view vine info)[docs/vine-info.png]
+![view vine info](docs/vine-info.png)
 
 
 User can add photos and write descriptions to them:
 
-!(no description below photo)[docs/vine-photo.png]
+![no description below photo](docs/vine-photo.png)
 
-!(write description for photo)[docs/vine-photo-write-info.png]
+![write description for photo](docs/vine-photo-write-info.png)
 
 
 User can edit plant:
 
-!(Edit vine)[docs/vine-edit.png]
+![Edit vine](docs/vine-edit.png)
 
 and delete it:
 
-!(Delete vine)[docs/custom-dialog-vine.png]
+![Delete vine](docs/custom-dialog-vine.png)
 
 User can delete photos:
 
-!(Delelte photos)[docs/vine-edit-delete-photos.png]
+![Delelte photos](docs/vine-edit-delete-photos.png)
 
 
 Entrance is not working yet, you can click on any button and home activity will be opened
 
-!(Entrance)[docs/entrance.png]
+![Entrance](docs/entrance.png)
