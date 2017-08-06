@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.miymayster.myvine.AddVineActivity">
+
+    <EditText
+        android:id="@+id/vine_kind"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#fff"
+        android:elevation="10dp"
+        android:hint="@string/what_kind_of_vine_this_is"
+        android:inputType="textCapWords"
+        android:maxLines="1" />
+
+    <EditText
+        android:id="@+id/vine_name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/vine_kind"
+        android:layout_marginTop="8dp"
+        android:background="#fff"
+        android:elevation="10dp"
+        android:hint="@string/what_is_a_nickname_of_this_vine"
+        android:inputType="textCapWords"
+        android:maxLines="1" />
+
+    <EditText
+        android:id="@+id/vine_planted"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/vine_name"
+        android:layout_marginTop="8dp"
+        android:background="#fff"
+        android:elevation="10dp"
+        android:focusable="false"
+        android:hint="@string/when_was_this_vine_planted"
+        android:maxLines="1" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_save_new_vine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_add_24dp"
+        app:elevation="8dp"
+        app:fabSize="normal" />
+</RelativeLayout>

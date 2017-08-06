@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.miymayster.myvine.VinePhotoActivity">
+    <ImageView
+        android:id="@+id/vine_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        tools:src="@drawable/vine_example"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_add_photo_note"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/ic_notes_24dp"
+        app:fabSize="normal"
+        android:visibility="gone"
+        android:elevation="8dp"/>
+
+    <EditText
+        android:id="@+id/text_editor"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#fff"
+        android:layout_margin="16dp"
+        android:hint="@string/enter_text"
+        android:gravity="top"
+        android:padding="8dp"
+        android:visibility="gone"
+        android:layout_above="@id/fab_add_photo_note"/>
+
+    <FrameLayout
+        android:id="@+id/text_display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp">
+        <TextView
+            android:id="@+id/photo_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/textBackground"
+            android:layout_margin="8dp"
+            android:padding="8dp"
+            android:paddingRight="40dp"
+            android:paddingEnd="40dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_edit_gray_24dp"
+            android:layout_gravity="bottom|right"
+            android:layout_margin="16dp"/>
+    </FrameLayout>
+</RelativeLayout>

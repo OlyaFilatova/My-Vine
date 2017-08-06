@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Моя Лоза</string>
+    <string name="yes">Так</string>
+    <string name="or">або</string>
+    <string name="no">Ні</string>
+    <string name="vine">Лоза</string>
+    <string name="my">Моя</string>
+    <string name="log_in">Вхід</string>
+    <string name="enter_email_address">введіть Email адресу</string>
+    <string name="enter_password">введіть Пароль</string>
+    <string name="care_and_history_of_your_grapes">Догляд та історія вашого винограду</string>
+    <string name="label_my_vines">Мої Лози</string>
+    <string name="what_kind_of_vine_this_is">Який сорт винограду?</string>
+    <string name="what_is_a_nickname_of_this_vine">Назвіть лозу</string>
+    <string name="when_was_this_vine_planted">Коли лозу посаджено</string>
+    <string name="nice_background">Чудовий фон</string>
+    <string name="add_your_first_vine">додайте першу лозу</string>
+    <string name="label_chosen_vine">Вибрана лоза</string>
+    <string name="label_vines">Лоза</string>
+    <string name="delete_vine">Видалити лозу</string>
+    <string name="delete_photos">Видалити фото</string>
+    <string name="done">Готово</string>
+    <string name="edit">Редагувати</string>
+    <string name="enter_text">Введіть текст</string>
+    <string name="action_logout">Вийти</string>
+    <string name="delete_photos_message">Видалити %d фото?</string>
+    <string name="delete_vine_message">Видалити цю лозу?</string>
+</resources>

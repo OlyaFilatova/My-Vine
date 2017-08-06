@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/vine_width"
+    android:layout_height="@dimen/vine_width"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="@dimen/vine_margin">
+
+    <ImageView
+        android:id="@+id/vine_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/last_photo"
+        tools:src="@drawable/vine_example" />
+
+    <TextView
+        android:id="@+id/vine_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="28dp"
+        android:background="@color/textBackground"
+        android:gravity="center"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:paddingTop="4dp"
+        tools:text="Name"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/vine_kind"
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:layout_gravity="bottom"
+        android:background="@color/textBackground"
+        android:gravity="center_horizontal"
+        android:padding="4dp"
+        tools:text="Kind" />
+</FrameLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.miymayster.myvine.VineInfoActivity">
+
+    <TextView
+        android:id="@+id/vine_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:padding="4dp"
+        android:textAllCaps="true"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:text="Vine Name" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/vine_name"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#909090" />
+
+    <TextView
+        android:id="@+id/vine_kind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/divider"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:padding="4dp"
+        android:textAllCaps="true"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:text="Vine Kind" />
+
+    <TextView
+        android:id="@+id/vine_planted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vine_kind"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:padding="4dp"
+        tools:text="3 years 2 months 5 days" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/vine_planted"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#909090" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/vine_photos_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/divider2" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_add_vine_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_camera_24dp"
+        android:layout_margin="16dp"
+        app:elevation="8dp"
+        app:fabSize="normal" />
+
+</RelativeLayout>

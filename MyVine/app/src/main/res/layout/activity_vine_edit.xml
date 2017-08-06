@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.miymayster.myvine.VineInfoActivity">
+
+    <EditText
+        android:id="@+id/vine_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#fff"
+        android:hint="@string/what_is_a_nickname_of_this_vine"
+        android:inputType="textCapWords"
+        android:maxLines="1"
+        android:padding="4dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:text="Vine Name" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/vine_name"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#909090" />
+
+    <EditText
+        android:id="@+id/vine_kind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/divider"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#fff"
+        android:hint="@string/what_kind_of_vine_this_is"
+        android:inputType="textCapWords"
+        android:maxLines="1"
+        android:padding="4dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:text="Vine Kind" />
+
+    <EditText
+        android:id="@+id/vine_planted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vine_kind"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#fff"
+        android:focusable="false"
+        android:hint="@string/when_was_this_vine_planted"
+        android:maxLines="1"
+        android:padding="4dp"
+        tools:text="3 years 2 months 5 days" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/vine_planted"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#909090" />
+
+    <LinearLayout
+        android:id="@+id/bottom_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/vine_delete_button"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginRight="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_delete_vine"
+            android:text="@string/delete_vine"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/vine_photos_delete_button"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="4dp"
+            android:enabled="false"
+            android:layout_weight="1"
+            android:background="@drawable/button_delete_photos"
+            android:text="@string/delete_photos"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/vine_photos_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_buttons"
+        android:layout_below="@id/divider2" />
+
+</RelativeLayout>

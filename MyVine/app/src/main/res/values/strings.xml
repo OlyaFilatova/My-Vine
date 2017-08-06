@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">MyVine</string>
+    <string name="nice_background">Nice background</string>
+    <string name="action_logout">Logout</string>
+
+    <string name="label_chosen_vine">Chosen Vine</string>
+    <string name="label_my_vines">My Vines</string>
+    <string name="label_vines">Vine</string>
+    <string name="log_in">Log in</string>
+    <string name="enter_password">enter Password</string>
+    <string name="enter_email_address">enter Email address</string>
+    <string name="my">My</string>
+    <string name="vine">Vine</string>
+    <string name="edit">Edit</string>
+    <string name="done">Done</string>
+
+    <string name="delete_vine_message">Delete this vine?</string>
+    <string name="delete_photos_message">Delete %d photos?</string>
+    <string name="what_kind_of_vine_this_is">What kind of vine this is?</string>
+    <string name="what_is_a_nickname_of_this_vine">What is a nickname of this vine?</string>
+    <string name="when_was_this_vine_planted">When was this vine planted?</string>
+    <string name="add_your_first_vine">Add your first vine</string>
+    <string name="care_and_history_of_your_grapes">care and history of your grapes</string>
+    <string name="or">or</string>
+    <string name="delete_vine">Delete Vine</string>
+    <string name="delete_photos">Delete Photos</string>
+    <string name="enter_text">enter text</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+
+    <string name="photos_directory_name" translatable="false">Photos</string>
+    <string name="last_photo">Last photo of the vine or logo of there was none</string>
+</resources>
