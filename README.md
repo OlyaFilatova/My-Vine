@@ -1,5 +1,7 @@
 # My Vine
 
+designed by Uriy Opanasenko
+
 powered by Picasso
 
 This is a program for a garden photo album.
