@@ -1,6 +1,6 @@
 # My Vine
 
-designed by Uriy Opanasenko
+## designed by Uriy Opanasenko
 
 powered by Picasso
 
